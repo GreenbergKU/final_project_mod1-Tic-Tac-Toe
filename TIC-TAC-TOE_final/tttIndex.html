@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='./tttStyles.css'>
+    <title>TIC-TAC-TOE retry</title>
+</head>
+<body>
+    <header>
+        <h2>Tic Tac Toe</h2>
+    </header>
+    <main id="main-grid">
+        <h3 class="playerX">player X</h3>
+        <div id="winsX" class="wins">WINS
+            <div id="numX" class="winNum">#</div>
+        </div>        
+        <div id="winBoardsX" class="winBoards">
+            <div id="mini-boardsX" class="win-grid"></div>
+        </div>
+        <section id="playerTurn" class="playerTurn">
+            <h4 id="turnTxt"></h4>
+            <div id="turnImg-wrapper">
+                <img id="turnImg" class="turnImage" src="./images/Oarrow.png" alt="arrow image">
+                <div id="playAgain" class="playAgain hidden">
+                    <h6 id="playAgainTxt">Do You Want To Play Again?</h6>
+                    <button id="yes">YES</button>
+                    <button id="no">NO</button>
+                </div>
+            </div>   
+        </section>
+        <section class="gameBoard">
+            <div id="board-grid" class="board">
+                <div id="1" class="square" name="1">""</div>
+                <div id="2" class="square" name="2">""</div>
+                <div id="3" class="square" name="3">""</div>
+                <div id="4" class="square" name="4">""</div>
+                <div id="5" class="square" name="5">""</div>
+                <div id="6" class="square" name="6">""</div>
+                <div id="7" class="square" name="7">""</div>
+                <div id="8" class="square" name="8">""</div>
+                <div id="9" class="square" name="9">""</div>
+            </div>
+        </section>
+        <h3 class="playerO">player O</h3>
+        <div id="winsO" class="wins">WINS
+            <div id="numO" class="winNum">#</div>
+        </div>
+        <div id="winBoardsO" class="winBoards">
+            <div id="mini-boardsO" class="win-grid"></div>
+        </div>
+    </main>
+    <script src='./src/tttPlayer.js'></script>
+    <script src='./src/tttGame.js'></script>
+    <script src='./src/tttMain.js'></script>
+</body>
+</html>
