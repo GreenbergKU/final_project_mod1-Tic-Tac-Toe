@@ -1,11 +1,10 @@
 README.md
 # FINAL PROJECT: Tic-Tac-Toe
-
-
-[Sue's Slack profile photo](https://ca.slack-edge.com/T029P2S9M-UTPTTDE84-13b671276cf8-72)
-[Casey Dallavalle's Slack profile photo](https://ca.slack-edge.com/T029P2S9M-U6VMF6L85-fa69b231d590-72)
-
 ![Screen Shot 2020-04-16 at 10 02 15 PM](https://user-images.githubusercontent.com/10098034/79581104-3072ed80-8087-11ea-9d3b-9a2c53522196.png)
+
+
+![Casey Dallavalle's Slack profile photo](https://ca.slack-edge.com/T029P2S9M-U6VMF6L85-fa69b231d590-72)
+![Sue's Slack profile photo](https://ca.slack-edge.com/T029P2S9M-UTPTTDE84-13b671276cf8-72)
 
 
 * project manager: __CASEY__ [(github)](https://github.com/turingschool-examples)
